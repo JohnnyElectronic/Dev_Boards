@@ -2,12 +2,10 @@
 
 
 <img src="img/ICSP_6-pin_ST_cbl.jpg" width="50%">
-**ICSP 6-pin ST Programming Cable**
+** ICSP 6-pin ST Programming Cable **
 This is a ICSP programming cable for the older 6-pin Arduino ICSP. It uses a spring loaded soft-touch (ST) 6-pin header that only needs to touch the ICSP pad for programming. 
 
-
 The other end connects to a 6-pin ICSP header from a ISP programmer such as an Arduino Uno or Nano. You will either need to modify the reset line to connect to D10 at the ICSP header or separate the orange pins and connect it directly to the D10 output.
-
 
 [schematic](schematics/ICSP_6Wire.pdf)
 
