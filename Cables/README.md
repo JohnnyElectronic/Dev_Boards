@@ -2,7 +2,7 @@
 
 
 <img src="img/ICSP_6-pin_ST_cbl.jpg" width="50%">
-*ICSP 6-pin ST Programming Cable*
+**ICSP 6-pin ST Programming Cable**
 This is a ICSP programming cable for the older 6-pin Arduino ICSP. It uses a spring loaded soft-touch (ST) 6-pin header that only needs to touch the ICSP pad for programming. 
 
 
@@ -13,7 +13,7 @@ The other end connects to a 6-pin ICSP header from a ISP programmer such as an A
 
 
 <img src="img/UPDI_6-pin_ST_cbl.jpg" width="50%">
-*UPDI 6-pin ST Programming Cable*
+**UPDI 6-pin ST Programming Cable**
 This is a UPDI programming cable for the newer AVR parts. It uses a spring loaded soft-touch (ST) 6-pin header that only needs to touch the ICSP pad for programming. 
 
 
@@ -27,7 +27,7 @@ The other end connects to 4 single pin dupont headers that are used to connect t
 
 
 <img src="img/UPDI_3-pin_ST_cbl.jpg" width="50%">
-*UPDI 3-pin ST Programming Cable*
+**UPDI 3-pin ST Programming Cable**
 This is a UPDI programming cable for the newer AVR parts. It uses a spring loaded soft-touch (ST) 3-pin header that only needs to touch the UPDI pad for programming. 
 
 
