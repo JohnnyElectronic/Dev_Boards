@@ -16,7 +16,7 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
 
-## This build will use the following components in the design:
+## Technical Details
 
 * TP4057 Lipo Charger IC, 50-500ma (SMD)
 * Various 0805 resistors and capacitors
@@ -30,6 +30,15 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 -[Documents](doc/)
 
 -[Images](img/)
+
+
+__Licensing__
+
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
+To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Distributed as-is; no warranty is given.
+
 
 
 

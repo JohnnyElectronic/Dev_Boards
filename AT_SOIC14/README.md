@@ -10,7 +10,7 @@ A full assembly and usage guide is available in the "docs" folder.
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
 
-## This build will use the following components in the design:
+## Technical Details
 
 * Dimensions: 34.3 x 26.7 mm
 * Parts Supported: VDD pin 1, GND pin 14. Designed for the ATtiny 24/84 series but supports others
@@ -42,6 +42,13 @@ This board was designed to be as small as possible while providing numerous conn
 -[Documents](doc/)
 
 -[Images](img/)
+
+
+__Licensing__
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
+To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Distributed as-is; no warranty is given.
 
 
 

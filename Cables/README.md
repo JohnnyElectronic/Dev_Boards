@@ -38,7 +38,12 @@ This only uses pin 2-4 of the UPDI 4 pin pad. The pin 1 Reset line is not used.
 
 The other end connects to 4 single pin dupont headers that are used to connect to a USB to serial converter such as CH340 types. The cable has a Schottky diode and resistor included. 
 
+<img src="img/UPDI_Circuit.jpg" width="50%">
+
+
+
 [schematic](schematics/UPDI_3wire.pdf)
+
 
 
 > [!NOTE]
@@ -47,3 +52,12 @@ The other end connects to 4 single pin dupont headers that are used to connect t
 ## Directories
 - [schematics](schematics/)
 - [images](img/)
+
+
+__Licensing__
+
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
+To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Distributed as-is; no warranty is given.
+

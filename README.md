@@ -22,3 +22,14 @@ These boards are designed to be as small as possible while providing numerous co
 
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic)
+
+
+
+__Licensing__
+
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
+To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Distributed as-is; no warranty is given.
+
+
