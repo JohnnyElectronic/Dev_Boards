@@ -11,7 +11,7 @@ The back of the board has support for an optional low current voltage regulator.
 
 This board was designed to be as small as possible while providing a few options for battery charging and voltage regulation. Typically used in scale model builds, dioramas or other areas where a small compact lipo battery charger is needed.
 
-A full assembly, usage guide, and schmatic are available in the "Documents" folder. To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
+A full assembly, usage guide, and schmatic are available in the "Documents" and "Schematics" folder. To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
  
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
