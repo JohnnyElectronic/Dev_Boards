@@ -24,7 +24,7 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 
 
 ## Purchasing
-[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
 
 
 ## Directories
