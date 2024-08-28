@@ -25,7 +25,7 @@ These boards are designed to be as small as possible while providing numerous co
 
 
 
-__Licensing__
+## Licensing
 
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)

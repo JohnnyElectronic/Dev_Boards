@@ -9,8 +9,8 @@ __Assembled Boards - Top/Bottom (With AVR64DD20 part)__
 
 Here is the documentation and support files for building and using the AVR SOIC20 Development PCB. 
 To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
-A full assembly and usage guide is available in the "docs" folder.
- 
+A full assembly and usage guide is available in the "doc" folder.
+
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
 
@@ -37,6 +37,11 @@ The IO outputs are setup to support 2.54mm pin strip headers so that the board c
 This board was designed to be as small as possible while providing numerous connection options and a set of MOSFET drivers for LED lighting in scale model builds. Typically used in scale model builds, dioramas or other areas where a small compact SoC (System on a chip) is needed.
 
 
+## Purchasing
+[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+
+
+
 ## Directories
 
 -[Schematics](schematics/)
@@ -47,7 +52,8 @@ This board was designed to be as small as possible while providing numerous conn
 
 
 
-__Licensing__
+## Licensing
+
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 

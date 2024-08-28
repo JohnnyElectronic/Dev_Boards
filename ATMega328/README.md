@@ -27,6 +27,12 @@ Programming can be accomplished using a chip programmer for the ATMega part or u
 
 This board was designed to be as small as possible while providing numerous connection options and a set of MOSFET drivers for LED lighting in scale model builds. Typically used in scale model builds, dioramas or other areas where a small compact SoC (System on a chip) is needed.
 
+
+## Purchasing
+[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+
+
+
 ## Directories
 
 -[Schematics](schematics/)
@@ -37,7 +43,8 @@ This board was designed to be as small as possible while providing numerous conn
 
 
 
-__Licensing__
+## Licensing
+
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 

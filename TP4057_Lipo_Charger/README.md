@@ -23,6 +23,10 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 * Option SOT23.5/26 LDO Voltage Regulator
 
 
+## Purchasing
+[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+
+
 ## Directories
 
 -[Schematics](schematics/)
@@ -32,7 +36,7 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 -[Images](img/)
 
 
-__Licensing__
+## Licensing
 
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International. 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
