@@ -1,21 +1,22 @@
 # ATtiny85 Development Board
 
-![Top](img/ATtiny85_r2_pcb_f.jpg)
-![Bottom](img/ATtiny85_r2_pcb_b.jpg)
+<img src="img/ATtiny85_r2_pcb_f.jpg" width="50%">
+<img src="img/ATtiny85_r2_pcb_b.jpg" width="25%">
 
 Here is the documentation and support files for building and using the ATtiny85 Development PCB. 
 To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
 A full assembly and usage guide is available in the "docs" folder.
- 
-[See My YouTube Channel for examples on assembling this type of board](https://www.youtube.com/@Johnny_Electronic/playlists)
+
+> [!NOTE]
+> [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
 
 ## This build will use the following components in the design:
 
-*Dimensions: 29.7 x 23.1 mm*
-*Parts Supported: ATtiny 25 / 45 / 85 (SMD or Through hole)*
-*Up to 4 MOSFET or BJT drivers supported*
-*Programming using the ICSP port or directly to the removed part (Non-SMD version)*
-*Various 0805 resistors and capacitors*
+* Dimensions: 29.7 x 23.1 mm
+* Parts Supported: ATtiny 25 / 45 / 85 (SMD or Through hole)
+* Up to 4 MOSFET or BJT drivers supported
+* Programming using the ICSP port or directly to the removed part (Non-SMD version)
+* Various 0805 resistors and capacitors
 
 The Attiny85 development board supports the ATtiny 25/45/85 8 pin through hole (TH) or surface mount (SMD) parts. Connections to all IO pins are provided as well as a sub set of connections through SMD resistors and MOSFET drivers. A total of 4 MOSFET transistors are available or optionally a bipolar junction transistor (BJT) can be used. Some outputs share a MOSFET and the output pin can be selected by a solder jumper (JP1-2). See the IO Pin Connection Planning Guide at the end of this document for details.
 
@@ -27,9 +28,13 @@ This board was designed to be as small as possible while providing numerous conn
 
 
 ## Directories
-- schematics: Images of the schematic design
-- doc: Documents, PCB Build document 
-- img: Images for various documents
+
+-[Schematics](schematics/)
+
+-[Documents](doc/)
+
+-[Images](img/)
+
 
 
 
