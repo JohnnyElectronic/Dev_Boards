@@ -32,6 +32,7 @@ The other end connects to 4 single pin dupont headers that are used to connect t
 <img src="img/UPDI_3-pin_ST_cbl.jpg" width="50%">
 
 **UPDI 3-pin ST Programming Cable**
+
 This is a UPDI programming cable for the newer AVR parts. It uses a spring loaded soft-touch (ST) 3-pin header that only needs to touch the UPDI pad for programming. 
 
 
@@ -42,7 +43,7 @@ The other end connects to 4 single pin dupont headers that are used to connect t
 
 [schematic](schematics/UPDI_3wire.pdf)
 
-
+[!NOTE]
 [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic)
 
 ## Directories
