@@ -1,24 +1,35 @@
 # TP4057 Lipo Charger Board
 
-![Top](img/LipoChrgAdj_r2_pcb_f.jpg)
-![Bottom](img/LipoChrgAdj_r2_pcb_b.jpg)
+<img src="img/LipoChrgAdj_r2_pcb_t.jpg" width="50%">
+<img src="img/LipoChrgAdj_r2_pcb_b.jpg" width="22%">
 
-Here is the documentation and support files for building and using the TP4057 Lipo Charger PCB. 
-To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
-A full assembly and usage guide is available in the "docs" folder.
+The TP4057 Lipo Battery Charger Board is used to charge various lithium polymer or “Lipo” batteries. It supports single-cell lithium-ion or lithium polymer batteries and has an adjustable current setting from 50ma to 500 ma (RV1 can be bypassed and fixed resistor values for R2 can be used instead to set the charging current). This works great for most of the batteries needed for smaller projects easily up to 1 amp if needed. The board uses a common anode dual color LED to show the charging/standby states. 
+
+The LED can either be mounted on the board or wired off board as needed. You can also use two individual LED’s if you want.Connections to BAT IN, OUT, and 5v are at a 2.54 mm pitch supporting various headers, plugs, and sockets. 5v is used as the input voltage to charge the battery. A USB power source works well for this. I’ve made a custom 3 pin charging cable from an old USB cord to charge most of my models. Q1 is used to disconnect the output side while the battery is charging but this can be bypassed with JP1 if needed.
+
+The back of the board has support for an optional low current voltage regulator. This fits either an SOT-23.5 or SOT-25 package of which there are a few types. Useful for driving some of the color displays that require a 3.3 voltage supply.
+
+This board was designed to be as small as possible while providing a few options for battery charging and voltage regulation. Typically used in scale model builds, dioramas or other areas where a small compact lipo battery charger is needed.
+
+A full assembly, usage guide, and schmatic are available in the "Documents" folder. To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
  
-[See My YouTube Channel for examples on assembling these dev boards](https://www.youtube.com/@Johnny_Electronic/playlists)
+> [!NOTE]
+> [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)
 
 ## This build will use the following components in the design:
 
-*TP4057 Lipo Charger IC, 50-500ma (SMD)*
-*Various 0805 resistors and capacitors*
+* TP4057 Lipo Charger IC, 50-500ma (SMD)
+* Various 0805 resistors and capacitors
+* Option SOT23.5/26 LDO Voltage Regulator
 
 
 ## Directories
-- schematics: Images of the schematic design
-- doc: Documents, PCB Build document 
-- img: Images for various documents
+
+-[Schematics](schematics/)
+
+-[Documents](doc/)
+
+-[Images](img/)
 
 
 
