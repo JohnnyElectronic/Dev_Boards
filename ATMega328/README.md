@@ -29,7 +29,7 @@ This board was designed to be as small as possible while providing numerous conn
 
 
 ## Purchasing
-[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
 
 
 
