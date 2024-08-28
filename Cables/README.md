@@ -48,7 +48,7 @@ The other end connects to 4 single pin dupont headers that are used to connect t
 
 
 ## Purchasing
-[Visit my Tindie Store] (https://www.tindie.com/stores/johnnyelectronic/)
+[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
 
 
 > [!NOTE]
