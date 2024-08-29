@@ -5,7 +5,7 @@
 
 Here is the documentation and support files for building and using the AT SOIC14 Development PCB. 
 To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
-A full assembly and usage guide is available in the "docs" folder.
+A full assembly and usage guide is available in the "doc" folder.
  
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic/playlists)

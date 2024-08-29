@@ -18,7 +18,7 @@ A full assembly and usage guide is available in the "docs" folder.
 * Programming using the ICSP port or directly to the removed part (Non-SMD version)
 * Various 0805 resistors and capacitors
 
-The Attiny85 development board supports the ATtiny 25/45/85 8 pin through hole (TH) or surface mount (SMD) parts. Connections to all IO pins are provided as well as a sub set of connections through SMD resistors and MOSFET drivers. A total of 4 MOSFET transistors are available or optionally a bipolar junction transistor (BJT) can be used. Some outputs share a MOSFET and the output pin can be selected by a solder jumper (JP1-2). See the IO Pin Connection Planning Guide at the end of this document for details.
+The ATtiny85 development board supports the ATtiny 25/45/85 8 pin through hole (TH) or surface mount (SMD) parts. Connections to all IO pins are provided as well as a sub set of connections through SMD resistors and MOSFET drivers. A total of 4 MOSFET transistors are available or optionally a bipolar junction transistor (BJT) can be used. Some outputs share a MOSFET and the output pin can be selected by a solder jumper (JP1-2). See the IO Pin Connection Planning Guide at the end of this document for details.
 
 A dedicated power connection is provided (PW) and other connection areas are marked as power (V+) and ground (GND) for sourcing other components. The power supply range is determined by the selection of U1, typically 2.7-5.5 volts or lower if using the low voltage parts.
 

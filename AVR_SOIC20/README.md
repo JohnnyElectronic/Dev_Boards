@@ -26,7 +26,7 @@ A full assembly and usage guide is available in the "doc" folder.
 * Programming using the UPDI port
 * Various 0805 resistors and capacitors
 
-The AT SOIC20 development board supports a variety of AVR DD Series 14 and 20 pin SMD parts with a UPDI programming option (See the Board Details for a list of devices). The SOIC14 parts are in a narrow package with VDD on pin 14, GND on Pin 1, and the UPDI on pin 3. The SOIC20 parts are a wide package with VDD on pin 20, GND on Pin 1, and the UPDI on pin 3.
+The AVR SOIC20 development board supports a variety of AVR DD Series 14 and 20 pin SMD parts with a UPDI programming option (See the Board Details for a list of devices). The SOIC14 parts are in a narrow package with VDD on pin 14, GND on Pin 1, and the UPDI on pin 3. The SOIC20 parts are a wide package with VDD on pin 20, GND on Pin 1, and the UPDI on pin 3.
 
 Connections to all IO pins are provided (Referenced as RST, UPDI, An/Cn/Dn)) as well as a sub set of connections through SMD resistors and MOSFET drivers. A total of 15 MOSFET transistors are available for the 20-pin package or optionally a bipolar junction transistor (BJT) can be used. For the 14-pin package up to 9 transistors are available. The only outputs that do not have a transistor option are Pins 2 & 3. See the IO Pin Connection Planning Guide at the end of this document for details.
 
