@@ -24,6 +24,14 @@ A full assembly and usage guide is available in the "doc" folder.
 * Programming using the ICSP/UPDI port
 * Various 0805 resistors and capacitors
 
+[SerialUPDI Info](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)
+
+[A megaTinyCore board file is available for the Arduino IDE](https://github.com/SpenceKonde/megaTinyCore)
+
+It can be installed manually or through the Boards Manager.
+
+
+
 The AT SOIC14 development board supports a variety of 14 pin SMD parts with ICSP or UPDI programming options (See the Board Details for a list of devices). Generally, those parts in a SOIC14 narrow package with VDD at pin 1, GND at Pin 14, and UPDI on pin 10 or ICSP should work.  
 
 Connections to all IO pins are provided (Referenced P2-P13) as well as a sub set of connections through SMD resistors and MOSFET drivers. A total of 10 MOSFET transistors are available or optionally a bipolar junction transistor (BJT) can be used. The only outputs that do not have a transistor option are Pins 2 & 3. See the IO Pin Connection Planning Guide at the end of this document for details.
