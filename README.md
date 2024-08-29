@@ -7,7 +7,7 @@
 ## AT/AVR/Arduino Boards
 
 - [ATtiny85 8 pin SMD/TH Board](ATtiny85/)
-- [AT Mega 328 28 pin TH Board](ATMega328/)
+- [ATMega328 28 pin TH Board](ATMega328/)
 - [AT SOIC14 14 pin SMD ICSP/UPDI Board](AT_SOIC14/)
 - [AVR SOIC20 14 pin and 20 pin SMD UPDI Board](AVR_SOIC20/)
 
@@ -19,9 +19,14 @@
 
 
 These boards are designed to be as small as possible while providing numerous connection options and a set of MOSFET drivers for LED lighting in scale model builds. Typically used in scale model builds, dioramas or other areas where a small compact SoC (System on a chip) is needed.
+Everything you will need to control LED lighting, sensors, displays, etc. can be done with one of these boards. There is also a Lipo charging board to support a simple battery voltage source.
 
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic)
+
+
+## Purchasing
+[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
 
 
 
