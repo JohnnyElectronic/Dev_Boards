@@ -71,8 +71,26 @@ __Technical Details__
 * Flying single pin dupont leads for connecting to a power source and a USB to serial converter
 * Schottky diode and resistor built in to the cable
 
-
 [schematic](schematics/UPDI_3wire.pdf)
+
+## Additional Information
+ 
+The UPDI cables have been tested with a CH340E and CH9340C USB to serial converter. Others should work as well.
+
+Using the CH340E or the CH9340C the baud rates listed below are known to work with the Arduino IDE.
+
+* SerialUPDI - Slow: 57600 baud
+* SerialUPDI - 230400 baud
+* SerialUPDI - Fast: 4.5v+ 460800 baud (CH340 â€“ and maybe some others)
+* SerialUPDI â€“ TURBO: 4.5v+ 912600 baud (CH340 (and maybe some others) only)
+
+The Arduino IDE has programming support for Serial UPDI. Additional information is available here [SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)
+
+__Cable Flying Lead Connections__
+
+* Connect the Red(+) and Black(-) leads to a power source for programming the part. Most USB to Serial converters have a 5v source and some also include a 3.3volt.
+* Connect the labeled TX lead to the TX of the converter
+* Connect the labeled RX lead to the RX of the converter
 
 
 ## Purchasing
@@ -81,27 +99,6 @@ __Technical Details__
 
 > [!NOTE]
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic)
-
-
-## Additional Information
- 
-The UPDI cables have been tested with a CH340E and CH9340C USB to serial converter. Others should work as well.
-
-Using the CH340E or the CH9340C the baud rates listed below are known to work with the Arduino IDE.
-
-    * SerialUPDI - Slow: 57600 baud
-    * SerialUPDI - 230400 baud
-    * SerialUPDI - Fast: 4.5v+ 460800 baud (CH340 – and maybe some others)
-    * SerialUPDI – TURBO: 4.5v+ 912600 baud (CH340 (and maybe some others) only)
-
-The Arduino IDE has programming support for Serial UPDI. Additional information is available here [SerialUPDI](https://github.com/SpenceKonde/AVR-Guidance/blob/master/UPDI/jtag2updi.md)
-
-
-__Cable Flying Lead Connections__
-
-    * Connect the Red(+) and Black(-) leads to a power source for programming the part. Most USB to Serial converters have a 5v source and some also include a 3.3volt.
-    * Connect the labeled TX lead to the TX of the converter
-    * Connect the labeled RX lead to the RX of the converter
 
 
 ## Directories
@@ -115,5 +112,4 @@ This work is licensed under Creative Commons Attribution-ShareAlike 4.0 Internat
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Distributed as-is; no warranty is given.
-
 
