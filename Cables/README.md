@@ -94,7 +94,7 @@ __Cable Flying Lead Connections__
 
 
 ## Purchasing
-[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
+<a href="https://www.tindie.com/stores/johnnyelectronic/?ref=offsite_badges&utm_source=sellers_JohnyElectronic&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
 
 
 > [!NOTE]

@@ -3,7 +3,7 @@
 <img src="img/LipoChrgAdj_r2_pcb_t.jpg" width="50%">
 <img src="img/LipoChrgAdj_r2_pcb_b.jpg" width="22%">
 
-The TP4057 Lipo Battery Charger Board is used to charge various lithium polymer or "Lipo"ù batteries. It supports single-cell lithium-ion or lithium polymer batteries and has an adjustable current setting from 50ma to 500 ma (RV1 can be bypassed and fixed resistor values for R2 can be used instead to set the charging current). This works great for most of the batteries needed for smaller projects easily up to 1 amp if needed. The board uses a common anode dual color LED to show the charging/standby states. 
+The TP4057 Lipo Battery Charger Board is used to charge various lithium polymer or "Lipo"¬ù batteries. It supports single-cell lithium-ion or lithium polymer batteries and has an adjustable current setting from 50ma to 500 ma (RV1 can be bypassed and fixed resistor values for R2 can be used instead to set the charging current). This works great for most of the batteries needed for smaller projects easily up to 1 amp if needed. The board uses a common anode dual color LED to show the charging/standby states. 
 
 The LED can either be mounted on the board or wired off board as needed. You can also use two individual LED's if you want. Connections to BAT IN, OUT, and 5v are at a 2.54 mm pitch supporting various headers, plugs, and sockets. 5v is used as the input voltage to charge the battery. A USB power source works well for this. I've made a custom 3 pin charging cable from an old USB cord to charge most of my models. Q1 is used to disconnect the output side while the battery is charging but this can be bypassed with JP1 if needed.
 
@@ -24,7 +24,7 @@ A full assembly, usage guide, and schmatic are available in the "Documents" and 
 
 
 ## Purchasing
-[Visit my Tindie Store](https://www.tindie.com/stores/johnnyelectronic/)
+<a href="https://www.tindie.com/stores/johnnyelectronic/?ref=offsite_badges&utm_source=sellers_JohnyElectronic&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
 
 
 ## Directories
