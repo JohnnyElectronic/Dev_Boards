@@ -1,0 +1,34 @@
+18:30:49.185 -> 
+DFPlayer - MP3-TF-16P, JL AF24C099149-84A2
+
+
+18:30:49.185 -> UART @ 115200
+18:30:49.185 -> 
+18:30:49.185 -> DFPlayer Test
+18:30:49.185 -> DFPlayer Cmd Delay (ms): 150
+18:30:49.185 -> Initializing DFPlayer ... (May take 3~5 seconds)
+18:30:50.366 -> DFP Initialization Time (ms):1160
+18:30:50.366 -> DFP Initialization Response: 0x2, CMD: 0x3F
+18:30:53.832 -> Params SW Ver: -1, 0xFFFFFFFF
+18:30:54.006 -> Params Vol: 15, 0xF
+18:30:54.146 -> Params Eq:4
+18:30:54.338 -> Params SD Tracks:9
+18:30:54.338 -> DFP Busy Pin Test: OK
+18:30:54.938 -> DFP Busy Active (ms): 461
+18:30:56.258 -> DFP Response: 0x5, CMD: 0x4C
+18:30:56.258 -> 
+18:30:56.258 -> DFP Continuous Play Test:
+18:30:56.396 -> DFP CMD To Play Start:161
+18:30:57.972 -> 
+18:30:57.972 -> DFP Gap Time:163
+18:30:59.506 -> 
+18:30:59.506 -> DFP Gap Time:162
+18:31:01.026 -> 
+18:31:01.026 -> DFP Gap Time:162
+18:31:02.575 -> 
+18:31:02.575 -> DFP Gap Time:164
+18:31:04.108 -> 
+18:31:04.108 -> DFP Gap Time:163
+18:31:05.755 -> DFP Status: Dev 0x2, State 0x0
+18:31:05.793 -> Errors:0
+18:31:05.793 -> END OF TEST

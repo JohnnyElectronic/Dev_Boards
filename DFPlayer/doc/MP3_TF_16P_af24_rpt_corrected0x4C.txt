@@ -1,0 +1,139 @@
+
+
+DFPlayer Analyzer 1.0 - Starting up...
+
+[61] Packet sent     (->): 7E FF 6 42 0 0 0 FE B9 EF   -> Cmd: 42 (GetStatus), arg: 0
+[108] Packet received (<-): 7E FF 6 42 0 2 2 FE B5 EF   <- Msg: 42 (GetStatus), arg: 514
+-------------------------------------------------------
+ Test Case "TestConnectivity" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestDiscoverDevices"
+-------------------------------------------------------
+[148] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[952] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[2268] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[2380] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[2642] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[2705] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[3507] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[4722] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[6736] Packet sent     (->): 7E FF 6 48 0 0 0 FE B3 EF   -> Cmd: 48 (GetNoTracksSD), arg: 0
+[6784] Packet received (<-): 7E FF 6 48 0 0 A FE A9 EF   <- Msg: 48 (GetNoTracksSD), arg: 10
+[6799] Packet sent     (->): 7E FF 6 9 0 0 1 FE F1 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 1
+[8813] Packet sent     (->): 7E FF 6 47 0 0 0 FE B4 EF   -> Cmd: 47 (GetNoTracksUSB), arg: 0
+[8861] Packet received (<-): 7E FF 6 47 0 0 0 FE B4 EF   <- Msg: 47 (GetNoTracksUSB), arg: 0
+[9874] Packet sent     (->): 7E FF 6 9 0 0 5 FE ED EF   -> Cmd: 9 (SetPlaybackDevice), arg: 5
+[11888] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+-------------------------------------------------------
+ Test Case "TestDiscoverDevices" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestReaction3F"
+-------------------------------------------------------
+[12101] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[12903] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[14219] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[14331] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[14594] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[14656] Packet sent     (->): 7E FF 6 3F 0 0 0 FE BC EF   -> Cmd: 3F (StorageDevices), arg: 0
+[14703] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+-------------------------------------------------------
+ Test Case "TestReaction3F" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetFolderTrackCount"
+-------------------------------------------------------
+[14743] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[15548] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[16864] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[16976] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[17239] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[17301] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[18315] Packet sent     (->): 7E FF 6 4E 0 0 1 FE AC EF   -> Cmd: 4E (GetNoTracksFolder), arg: 1
+[19044] Packet received (<-): 7E FF 6 4E 0 0 2 FE AB EF   <- Msg: 4E (GetNoTracksFolder), arg: 2
+-------------------------------------------------------
+ Test Case "TestGetFolderTrackCount" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetCurrentTrack"
+-------------------------------------------------------
+[19085] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[19940] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[21206] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[21318] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[21580] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[21642] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[21905] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[23919] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[23966] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[23984] Packet sent     (->): 7E FF 6 F 0 1 1 FE EA EF   -> Cmd: F (PlayFolderTrack), arg: 257
+[24046] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24094] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[24198] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24245] Packet received (<-): 7E FF 6 4C 0 0 1 FE AE EF   <- Msg: 4C (GetCurrentTrackSD), arg: 1
+GetCurrentTrack for SD returns correct value 200ms after start of track
+[24265] Packet sent     (->): 7E FF 6 16 0 0 0 FE E5 EF   -> Cmd: 16 (Stop), arg: 0
+-------------------------------------------------------
+ Test Case "TestGetCurrentTrack" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestTrackFinishedCallback"
+-------------------------------------------------------
+[24331] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[25133] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[26448] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[26561] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[26823] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[26886] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[27950] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[29963] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[30011] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[41366] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+Callback global track finished: 2
+Received 1 callback(s) on SD track end
+-------------------------------------------------------
+ Test Case "TestTrackFinishedCallback" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Profile of this DFPlayer device
+-------------------------------------------------------
+The following devices have been discovered:
+   -> SD, announced on reset, discovered by getTotalTrackCount
+Does NOT react on setPlaysourceFlash
+Reacts on 0x3F queries, reply : 2 -> SD
+getFolderTrackCount...
+   -> for SD returned 2 files in Folder /01/
+GetCurrentTrack for SD returns correct value 200ms after start of track
+Sends 1 callback(s) on SD track end
+
+
+-------------------------------------------------------------------------------
+ ALL TESTS COMPLETED!
+
+ Please report your results in an issue at
+
+     https://github.com/ghmartin77/DFPlayerAnalyzer/issues
+
+ Please state the player's chip name in the title of the issue entry.
+ Thanks for your support!
+-------------------------------------------------------------------------------
+

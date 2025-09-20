@@ -1,0 +1,217 @@
+
+
+DFPlayer Analyzer 1.0 - Starting up...
+
+[61] Packet sent     (->): 7E FF 6 42 0 0 0 FE B9 EF   -> Cmd: 42 (GetStatus), arg: 0
+[108] Packet received (<-): 7E FF 6 42 0 2 2 FE B5 EF   <- Msg: 42 (GetStatus), arg: 514
+-------------------------------------------------------
+ Test Case "TestConnectivity" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestDiscoverDevices"
+-------------------------------------------------------
+[148] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[952] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[2268] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[2380] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[2642] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[2705] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[3507] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[4722] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[6736] Packet sent     (->): 7E FF 6 48 0 0 0 FE B3 EF   -> Cmd: 48 (GetNoTracksSD), arg: 0
+[6784] Packet received (<-): 7E FF 6 48 0 0 A FE A9 EF   <- Msg: 48 (GetNoTracksSD), arg: 10
+[6799] Packet sent     (->): 7E FF 6 9 0 0 1 FE F1 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 1
+[8813] Packet sent     (->): 7E FF 6 47 0 0 0 FE B4 EF   -> Cmd: 47 (GetNoTracksUSB), arg: 0
+[8861] Packet received (<-): 7E FF 6 47 0 0 0 FE B4 EF   <- Msg: 47 (GetNoTracksUSB), arg: 0
+[9874] Packet sent     (->): 7E FF 6 9 0 0 5 FE ED EF   -> Cmd: 9 (SetPlaybackDevice), arg: 5
+[11888] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+-------------------------------------------------------
+ Test Case "TestDiscoverDevices" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestReaction3F"
+-------------------------------------------------------
+[12101] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[12903] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[14219] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[14331] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[14594] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[14656] Packet sent     (->): 7E FF 6 3F 0 0 0 FE BC EF   -> Cmd: 3F (StorageDevices), arg: 0
+[14703] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+-------------------------------------------------------
+ Test Case "TestReaction3F" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetFolderTrackCount"
+-------------------------------------------------------
+[14743] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[15548] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[16864] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[16976] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[17239] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[17301] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[18315] Packet sent     (->): 7E FF 6 4E 0 0 1 FE AC EF   -> Cmd: 4E (GetNoTracksFolder), arg: 1
+[19051] Packet received (<-): 7E FF 6 4E 0 0 2 FE AB EF   <- Msg: 4E (GetNoTracksFolder), arg: 2
+-------------------------------------------------------
+ Test Case "TestGetFolderTrackCount" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetCurrentTrack"
+-------------------------------------------------------
+[19092] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[19947] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[21213] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[21324] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[21587] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[21651] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[21864] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[23878] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[23925] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[23943] Packet sent     (->): 7E FF 6 F 0 1 1 FE EA EF   -> Cmd: F (PlayFolderTrack), arg: 257
+[24005] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24053] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[24157] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24204] Packet received (<-): 7E FF 6 4C 0 0 1 FE AE EF   <- Msg: 4C (GetCurrentTrackSD), arg: 1
+GetCurrentTrack for SD returns correct value 200ms after start of track
+[24224] Packet sent     (->): 7E FF 6 16 0 0 0 FE E5 EF   -> Cmd: 16 (Stop), arg: 0
+-------------------------------------------------------
+ Test Case "TestGetCurrentTrack" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestTrackFinishedCallback"
+-------------------------------------------------------
+[24289] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[25091] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[26406] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[26518] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[26781] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[26845] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[27908] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[29922] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[29970] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[41325] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+
+
+DFPlayer Analyzer 1.0 - Starting up...
+
+[61] Packet sent     (->): 7E FF 6 42 0 0 0 FE B9 EF   -> Cmd: 42 (GetStatus), arg: 0
+[171] Packet received (<-): 7E FF 6 42 0 2 0 FE B7 EF   <- Msg: 42 (GetStatus), arg: 512
+-------------------------------------------------------
+ Test Case "TestConnectivity" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestDiscoverDevices"
+-------------------------------------------------------
+[210] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[1064] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[2330] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[2443] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[2705] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[2767] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[3569] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[4785] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[6799] Packet sent     (->): 7E FF 6 48 0 0 0 FE B3 EF   -> Cmd: 48 (GetNoTracksSD), arg: 0
+[6846] Packet received (<-): 7E FF 6 48 0 0 A FE A9 EF   <- Msg: 48 (GetNoTracksSD), arg: 10
+[6862] Packet sent     (->): 7E FF 6 9 0 0 1 FE F1 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 1
+[8877] Packet sent     (->): 7E FF 6 47 0 0 0 FE B4 EF   -> Cmd: 47 (GetNoTracksUSB), arg: 0
+[8924] Packet received (<-): 7E FF 6 47 0 0 0 FE B4 EF   <- Msg: 47 (GetNoTracksUSB), arg: 0
+[9937] Packet sent     (->): 7E FF 6 9 0 0 5 FE ED EF   -> Cmd: 9 (SetPlaybackDevice), arg: 5
+[11951] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+-------------------------------------------------------
+ Test Case "TestDiscoverDevices" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestReaction3F"
+-------------------------------------------------------
+[12165] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[12966] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[14282] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[14395] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[14657] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[14720] Packet sent     (->): 7E FF 6 3F 0 0 0 FE BC EF   -> Cmd: 3F (StorageDevices), arg: 0
+[14768] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+-------------------------------------------------------
+ Test Case "TestReaction3F" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetFolderTrackCount"
+-------------------------------------------------------
+[14808] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[15611] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[16927] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[17040] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[17303] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[17366] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[18379] Packet sent     (->): 7E FF 6 4E 0 0 1 FE AC EF   -> Cmd: 4E (GetNoTracksFolder), arg: 1
+[19116] Packet received (<-): 7E FF 6 4E 0 0 2 FE AB EF   <- Msg: 4E (GetNoTracksFolder), arg: 2
+-------------------------------------------------------
+ Test Case "TestGetFolderTrackCount" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestGetCurrentTrack"
+-------------------------------------------------------
+[19156] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[20012] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[21277] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[21389] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[21652] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[21715] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[21928] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[23943] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[23990] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[24007] Packet sent     (->): 7E FF 6 F 0 1 1 FE EA EF   -> Cmd: F (PlayFolderTrack), arg: 257
+[24070] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24118] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[24220] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[24267] Packet received (<-): 7E FF 6 4C 0 0 1 FE AE EF   <- Msg: 4C (GetCurrentTrackSD), arg: 1
+GetCurrentTrack for SD returns correct value 200ms after start of track
+[24288] Packet sent     (->): 7E FF 6 16 0 0 0 FE E5 EF   -> Cmd: 16 (Stop), arg: 0
+-------------------------------------------------------
+ Test Case "TestGetCurrentTrack" FINISHED
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+ Running Test Case "TestTrackFinishedCallback"
+-------------------------------------------------------
+[24353] Packet sent     (->): 7E FF 6 C 0 0 0 FE EF EF   -> Cmd: C (Reset), arg: 0
+[25155] Packet received (<-): 7E FF 6 3F 0 0 2 FE BA EF   <- Msg: 3F (StorageDevices), arg: 2
+Callback OnCardOnline: 2
+[26471] Packet sent     (->): 7E FF 6 7 0 0 0 FE F4 EF   -> Cmd: 7 (SetEQ), arg: 0
+[26584] Packet sent     (->): 7E FF 6 1A 0 0 0 FE E1 EF   -> Cmd: 1A (SetDAC), arg: 0
+[26846] Packet sent     (->): 7E FF 6 6 0 0 1 FE F4 EF   -> Cmd: 6 (SetVolume), arg: 1
+[26908] Packet sent     (->): 7E FF 6 9 0 0 2 FE F0 EF   -> Cmd: 9 (SetPlaybackDevice), arg: 2
+[27922] Packet sent     (->): 7E FF 6 F 0 1 2 FE E9 EF   -> Cmd: F (PlayFolderTrack), arg: 258
+[29935] Packet sent     (->): 7E FF 6 4C 0 0 0 FE AF EF   -> Cmd: 4C (GetCurrentTrackSD), arg: 0
+[29983] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+[41338] Packet received (<-): 7E FF 6 4C 0 0 2 FE AD EF   <- Msg: 4C (GetCurrentTrackSD), arg: 2
+
