@@ -25,9 +25,11 @@ Everything you will need to control LED lighting, sensors, displays, etc. can be
 > [See My YouTube Channel for examples on programming my development boards with these cables](https://www.youtube.com/@Johnny_Electronic)
 
 
+## DFPlayer Review and DFPlayer Mini Board
+- [DFPlayer](DFPlayer/)
+
 ## Purchasing
 <a href="https://www.tindie.com/stores/johnnyelectronic/?ref=offsite_badges&utm_source=sellers_JohnyElectronic&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
-
 
 
 ## Licensing
