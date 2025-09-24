@@ -2,18 +2,23 @@
 
 <img src="img/DFP_assembled2_t.jpg" width="50%">
 
-<img src="img/DFP_pcb_t.jpg.jpg" width="25%">
-<img src="img/DFP_pcb_b.jpg.jpg" width="25%">
+<img src="img/DFP_pcb_t.jpg" width="28%"> <img src="img/DFP_pcb_b.jpg" width="25%">
 
 
-Here is the documentation for the DFPlayer Review as well as the DFPlayer Mini Board.
+**Here is the documentation for the DFPlayer Review as well as the DFPlayer Mini Board.**
 
-DFPlayer Review
+
+# DFPlayer Review
 Documentation and support files for the DFPlayer Review video. 
 
 -[DFPlayer Review Folder](DFPlayer_Review/)
 
 
+
+
+
+
+# DFPlayer Mini Board - Blank PCB or Assembled
 
 DFPlayer Board
 To assemble this circuit board you must be comfortable soldering surface mounted parts as small as 0805.
@@ -22,7 +27,6 @@ A assembly guide is available in the "doc" folder.
 > [!NOTE]
 > [See My YouTube Channel for DFPlayer Review as well as a assembly video on this board](https://www.youtube.com/@Johnny_Electronic/)
 
-# DFPlayer Mini Board - Blank PCB or Assembled
 
 ## Technical Details
 * Dimensions: 44.5 x 31 mm
