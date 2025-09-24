@@ -25,12 +25,17 @@
 //   Reserved A3    - D3, pin 2, Reserved for Analog or other use.
 
 #define LED_PIN     1       // Output pin (6) used for LED (Blink and Busy state) 
- 
-//#define DFPLAYER_DEBUG    // Enable to use Serial Monitor for debug. Will use SerRx/Tx pins.
-#define USE_DFP_BUSY        // When enabled will map DFPTx for Busy line instead of DFP Tx. (Active Low)
+//#define DFP_V3              // Version 3.0 device, SLOW
 
-#define DFP_AUDIO_LEVEL 25  // Used to set intial volume level in setup
-#define MAX_TRACKS  6       // Max expected tracks when DFPLAYER_DEBUG is enabled
+#ifdef DFP_V3
+#define DFP_CMD_DELAY   300 //  150 is the default, V3.0 meeds about 270-300ms
+#endif
+
+//#define DFPLAYER_DEBUG    // Enable to use Serial Monitor for debug. Will use SerRx/Tx pins.
+//#define USE_DFP_BUSY        // When enabled will map DFPTx for Busy line instead of DFP Tx. (Active Low)
+                            // Will use pull ups so a resistor jumper can be used (Allows ICSP programming)
+
+#define DFP_AUDIO_LEVEL 20  // Used to set intial volume level in setup
 
 #ifdef DFPLAYER_DEBUG
     const int SerRx = 2;    // Serial RX, this is physical pin 7, connects to Serial Mon TX
@@ -39,9 +44,8 @@
 #endif 
 
 int query;                        // variable to store status queries
-int track;                        // variable to track current mp3 track
-int maxTracks = MAX_TRACKS;       // variable to track total mp3 tracks
 const int blinkLEDPin = LED_PIN;
+bool blinkState = LOW;
 unsigned long timer;              // Used when issues with Busy pin to break while loop
 
 const int DFPTx = 4;              // Serial TX, this is physical pin 3, connects to DFP RX
@@ -117,7 +121,7 @@ void setup()
 #endif
 
 #ifdef USE_DFP_BUSY
-    pinMode(DFPBusy, INPUT);
+    pinMode(DFPBusy, INPUT_PULLUP);
 #endif
 
     pinMode(blinkLEDPin, OUTPUT);
@@ -134,6 +138,13 @@ void setup()
   // Sets up DFP_BUSY_PIN if used to use the busy state/pin of the player. 
   // Resets the device and provides a 1 sec delay.
     dfpSetup();
+
+    // May need additional delays here is lots of tracks on SD card
+
+#ifdef DFP_V3      // Slower device
+    delay (1500);
+#endif
+
     dfpSetVolume(DFP_AUDIO_LEVEL);
     dfpSetEq(DFP_EQ_CLASSIC);
 
@@ -154,8 +165,6 @@ void setup()
     mySerial.print(F("SD Tracks:"));
     mySerial.println(query);
 
-    maxTracks = query;
-
     query = dfpGetCurTrack();
     mySerial.print(F("Cur Track:"));
     mySerial.println(query);
@@ -166,44 +175,31 @@ void setup()
     digitalWrite(blinkLEDPin, LOW);   // turn the LED off
     delay(500);                       // wait
 
- //   dfpPlayRepeat(1);                 // Start playing all tracks
+    dfpPlayRandom();
+    // dfpPlayTrackMP3(1); // Track should play
 }
 
 void loop()
 {
   // Sample code, enter your own here.
   // dfpPlayTrackMP3(track);
+  // dfpPlayNext();
+  // dfpPlayTrackMP3(1); // Track should play
 
-    dfpPlayNext();
+    delay(1000);
 
-    timer = millis();
-
-    delay(50);
+    blinkState = !blinkState;
+    digitalWrite(blinkLEDPin, blinkState);
 
 #ifdef USE_DFP_BUSY
-    if (digitalRead(DFPBusy)) {
-        digitalWrite(blinkLEDPin, LOW);
-    } else {
-        digitalWrite(blinkLEDPin, HIGH);
-    }
-
+    timer = millis();
+    delay (10);
     /* Wait for busy line to go high, end of track */
     while (!digitalRead(DFPBusy) && (millis() - timer < 70000)) {
-      delay(10);
-
-      if (millis() - timer > 30000) {
-        digitalWrite(blinkLEDPin, LOW);
-        delay(200);
-        digitalWrite(blinkLEDPin, HIGH);
-      } 
-    }
-
-    delay(50);
-
-    if (digitalRead(DFPBusy)) {
-        digitalWrite(blinkLEDPin, LOW);
-    } else {
-        digitalWrite(blinkLEDPin, HIGH);
+      digitalWrite(blinkLEDPin, LOW);
+      delay(200);
+      digitalWrite(blinkLEDPin, HIGH);
+      delay(200);
     }
 #endif
 
